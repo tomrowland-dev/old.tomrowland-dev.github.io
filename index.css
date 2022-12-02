@@ -1,13 +1,11 @@
-/* Path: index.css */
-/* basic css template with animated title */
-/* created by: Andrew M. */
-/* date: 3/3/2016 */
-/* version: 1.0 */
-/* last update: 3/3/2016 */
-/* description: This is a basic css template with an animated title. */
+* {
+    text-decoration: none;
+}
 
 body {
     background: #000;
+    text-decoration: none;
+    color: #fff;
 }
 
 .title {
@@ -22,10 +20,5 @@ body {
     font-size: 100px;
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 10px;
-    -webkit-animation: animate 1s linear infinite;
-    -moz-animation: animate 1s linear infinite;
-    -ms-animation: animate 1s linear infinite;
-    -o-animation: animate 1s linear infinite;
-    animation: animate 1s linear infinite;
+    letter-spacing: 2px;
 }
