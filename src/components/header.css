@@ -1,0 +1,16 @@
+.header-css {
+    padding-left: 2rem;
+    display: flex;
+    align-items: center;
+    background-color: #1a1a1a;
+
+}
+
+.flav-text {
+    margin-left: 2rem;
+}
+
+.links {
+    text-decoration: none;
+    float: right;
+}
