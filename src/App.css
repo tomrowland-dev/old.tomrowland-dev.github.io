@@ -1,5 +1,7 @@
 body {
-  background-color: black;
+  background-color: #77529e;
   font-family: 'Poppins', sans-serif;
   color: white;
+  height: 100vh;
+  width: 100vw;
 }
