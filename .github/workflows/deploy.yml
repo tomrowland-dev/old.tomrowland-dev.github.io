@@ -54,5 +54,5 @@ jobs:
       - name: Create the CNAME file
         uses: "finnp/create-file-action@master"
         env:
-          FILE_NAME: "dir/fileName.txt"
-          FILE_DATA: "file content"
+          FILE_NAME: "CNAME"
+          FILE_DATA: "0x14.me"
