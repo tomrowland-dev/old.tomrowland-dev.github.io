@@ -39,10 +39,10 @@ jobs:
         uses: 1arp/create-a-file-action@0.2
         with:
           path: 'src'
-          file: 'foo.bar'
+          file: 'CNAME'
           content: |
-            Hello
-            World
+            0x14.me
+            
 
 
   deploy:
