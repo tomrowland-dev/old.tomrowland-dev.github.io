@@ -8,4 +8,4 @@ Built with React through Vite, which is somthing ive never tried before but the 
 
 Also setup a github action that on push to main it will compile it, and deploy to gh-pages, which is pretty cool. Never done that before but it works. 
 
-.
+
