@@ -25,7 +25,6 @@ jobs:
 
       # This steps build our app. In this case we just move all files from the src folder to the dist folder
       - name: Install and Build 🔧
-        name: Setup Node
         uses: actions/setup-node@v1
         with:
           node-version: 16
