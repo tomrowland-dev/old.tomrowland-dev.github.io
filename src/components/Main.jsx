@@ -8,8 +8,9 @@ const Main = () => {
 
 
                 <div className='content-main'>
-                    <h1>Hi, I'm Tom </h1>
-                    <p> Website is a WIP come back another time :)</p>
+                    <h1 className='main-text'>Hi, I'm Tom</h1>
+                    <p>A 17y/o Self taught developer from Melbourne</p>
+                    <button> About </button>
                 </div>
             </div>
         </div>

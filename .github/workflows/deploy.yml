@@ -25,9 +25,17 @@ jobs:
 
       # This steps build our app. In this case we just move all files from the src folder to the dist folder
       - name: Install and Build 🔧
-        run: |
-          mkdir -p dist
-          cp -r src/* dist
+        name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16
+        
+      - name: Install dependencies
+        uses: bahmutov/npm-install@v1
+
+      - name: Build project
+        run: npm run build
+
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.0.0
         with:

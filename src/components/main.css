@@ -10,13 +10,13 @@
 
 
 :root {
-    --accent-1: #dcb5ff;
+    --accent-1: #e4f1fe;
 
-    --accent-2: #d9f2ff;
+    --accent-2: #8dc6ff;
 
-    --accent-3: #a5bdfd;
+    --accent-3: #22313f;
 
-    --accent-4: #77529e;
+    --accent-4: #34495e;
 
 }
 
@@ -62,35 +62,36 @@ body {
     padding: 19px;
 } */
 
-@-webkit-keyframes scale-in-center {
-    0% {
-        -webkit-transform: scale(0);
-        transform: scale(0);
-        opacity: 1;
-    }
 
-    100% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-        opacity: 1;
-    }
+
+button {
+    font-size: 40px;
+    /* border-radius: 10px; */
+    font-family: poppins;
 }
 
-@keyframes scale-in-center {
-    0% {
-        -webkit-transform: scale(0);
-        transform: scale(0);
-        opacity: 1;
-    }
 
-    100% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-        opacity: 1;
-    }
-}
 
-.scale-in-center {
-    -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+/* CSS */
+button {
+    background: var(--accent-1);
+    border-radius: 999px;
+    box-shadow: var(--accent-4) 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: var(--accent-4);
+    cursor: pointer;
+    font-family: poppins;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 }
