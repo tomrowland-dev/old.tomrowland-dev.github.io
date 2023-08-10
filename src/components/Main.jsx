@@ -12,7 +12,6 @@ const Main = () => {
                 <div className='content-main'>
                     <h1 className='main-text'>Hi, I'm Tom</h1>
                     <p>A 17y/o Self taught developer from Melbourne</p>
-                    <Link to="/about"><button> About </button></Link>
                 </div>
             </div>
         </div>

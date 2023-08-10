@@ -2,8 +2,8 @@ body {
   background-color: var(--accent-4);
   font-family: 'Poppins', sans-serif;
   /* color: white; */
-  height: 100vh;
-  width: 100vw;
+  /* height: 100vh;
+  width: 100vw; */
 }
 
 :root {
