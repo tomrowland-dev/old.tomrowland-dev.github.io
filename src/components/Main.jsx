@@ -8,10 +8,14 @@ const Main = () => {
         <div>
             <div className='scale-in-center'>
 
+                <div className="tracking-in-expand">
 
-                <div className='content-main'>
-                    <h1 className='main-text'>Hi, I'm Tom</h1>
-                    <p>A 17y/o Self taught developer from Melbourne</p>
+
+                    <div className='content-main'>
+                        <h1 className='main-text'>Hi, I'm Tom</h1>
+                        <p>A 17y/o Self taught developer from Melbourne</p>
+                    </div>
+
                 </div>
             </div>
         </div>
